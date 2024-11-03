@@ -1,0 +1,99 @@
+/* .heroMain {
+    position: relative;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+  }
+  
+  .heroElipse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .heroCopy {
+    text-align: left;
+  }
+  
+  .heroCopy h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroCopy .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroCopy .description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .heroButton {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .heroImg img {
+    width: 100%;
+    height: auto;
+  }
+   */
+
+
+   /* Optional: Hide scrollbar when modal is open */
+/* .modal-open {
+    overflow-y: hidden;
+}
+.heroMain {
+    position: relative;
+    text-align: center;
+    background-color: #f7f7f7;
+    
+    overflow: hidden; 
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .hero {
+    position: relative;
+    z-index: 1; 
+ 
+  }
+   */
+  /* .heroCopy {
+    text-align: left;
+  } */
+  
+  /* .heroCopy h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroCopy .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroCopy .description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .heroButton {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .heroImg img {
+    width: 100%;
+    height: auto;
+  }
+   */

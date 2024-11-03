@@ -1,0 +1,14 @@
+/* Custom styles for navbar */
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom: 3px solid #f8b400;
+  transform: translateY(-5px);
+}
