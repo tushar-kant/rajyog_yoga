@@ -12,3 +12,80 @@
   border-bottom: 3px solid #f8b400;
   transform: translateY(-5px);
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Consistent gap between the logo and text */
+}
+.chakra-icon {
+  width: 60px; /* Adjust size as needed */
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.text-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Adjust font if necessary */
+  color: #0B8C57; /* Dark green color for "Rajyog" */
+  font-weight: bold;
+}
+
+.rajyog {
+  color: #0B8C57; /* Dark green color for "Rajyog" */
+  font-size: 22px; /* Adjust font size */
+}
+
+.wellness {
+  color: #0BA1D9; /* Light blue color for "Wellness" */
+  font-size: 18px; /* Adjust font size */
+  font-weight: normal;
+  margin-top: -3px;
+}
+
+.underline {
+  width: 100%;
+  height: 3px; /* Thickness of the underline */
+  background-color: #0BA1D9; /* Same color as "Wellness" */
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .chakra-icon {
+    width: 40px;
+  }
+
+  .rajyog {
+    font-size: 20px;
+  }
+
+  .wellness {
+    font-size: 16px;
+  }
+
+  .underline {
+    height: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chakra-icon {
+    width: 30px;
+    height:35px;
+  }
+
+  .rajyog {
+    font-size: 15px;
+  }
+
+  .wellness {
+    font-size: 12px;
+  }
+
+  .underline {
+    height: 1.5px;
+  }
+}

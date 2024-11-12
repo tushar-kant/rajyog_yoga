@@ -15,16 +15,24 @@ function Home() {
       <div className={classes.hero}>
         <div className="row align-items-center">
           <div className="col-12 col-md-6 text-left">
-            <h1>Welcome to Rajyog Wellness</h1>
+            <h1>Welcome to <span style={{ color: '#4B0082' }}>Rajyog Wellness</span></h1>
             <p className={classes.subtitle}>
               Transform Your Health, Naturally and transform Your Life Through Mindful Movement
             </p>
             <p className={classes.description}>
               Discover how yoga can support your journey to wellness by managing lifestyle disorders such as stress, hypertension, diabetes, depression, and more. Our specialized classes combine traditional practices with modern insights to help you regain control over your body, mind, and overall health.
             </p>
-            <button className="btn btn-primary" onClick={handleShow}>
-              Book Appointment
-            </button>
+            <button
+  onClick={handleShow}
+  className="px-6 py-2 bg-purple-600 text-white font-semibold rounded-xl shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 ease-in-out"
+  style={{
+    transition: "background-color 0.3s ease, transform 0.3s ease",
+  }}
+>
+  Book Appointment
+</button>
+
+
           </div>
           <div className="col-12 col-md-6 text-center">
             <img src={HeroImg} alt="Yoga Illustration" className="img-fluid" />
