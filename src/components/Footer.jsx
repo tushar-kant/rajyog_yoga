@@ -13,33 +13,33 @@ function Footer() {
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-gray-300 transition"
+              className="group text-white rounded-full hover:text-black transition p-2 hover:bg-white duration-200 ease-in"
             >
-              <FaFacebookF size={20} />
+              <FaFacebookF className='group-hover:text-black' size={20} />
             </a>
             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-gray-300 transition"
+              className="group text-white rounded-full hover:text-black transition p-2 hover:bg-white duration-200 ease-in"
             >
-              <FaTwitter size={20} />
+              <FaTwitter className='group-hover:text-black' size={20} />
             </a>
             <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-gray-300 transition"
+              className="group text-white rounded-full hover:text-black transition p-2 hover:bg-white duration-200 ease-in"
             >
-              <FaInstagram size={20} />
+              <FaInstagram className='group-hover:text-black' size={20} />
             </a>
             <a
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-gray-300 transition"
+              className="group text-white rounded-full hover:text-black transition p-2 hover:bg-white duration-200 ease-in"
             >
-              <FaLinkedinIn size={20} />
+              <FaLinkedinIn className='group-hover:text-black' size={20} />
             </a>
           </div>
 
